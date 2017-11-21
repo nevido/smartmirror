@@ -1,0 +1,4 @@
+<!-- Whoareu -->
+<div class="contents-box whoareu animate-grow" ng-show="focus == 'whoareu'">
+    <img ng-controller="Whoareu" class="contents whoareu animate-grow" ng-src="{{gifimg}}" />
+</div>

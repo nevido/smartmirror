@@ -1,0 +1,10 @@
+<div ng-controller="Traffic">
+    <div class="traffic" ng-repeat="traffic in trips">
+        <div ng-show="!traffic.error" class="traffic-information">
+     <span class="time-to">이동 정보 {{traffic.name}}</span></br>
+     <span>{{traffic.origin}}에서 {{traffic.destinaion}}</span></br>
+     <span ng-show="traffic.hours > 0">{{traffic.hours}} hours and</span>
+     <span>{{traffic.minutes}} minutes</span>
+        </div>
+    </div>
+</div>
